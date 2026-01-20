@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>happyOBF - Luau Morse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+    <h2 id="ui-title">HAPPY OBF</h2>
+    
+    <label id="ui-label-input">Script Luau Asli:</label>
+    <textarea id="input" placeholder="print('Hello World')"></textarea>
+    
+    <button id="btn-gen" onclick="generate()">GENERATE OBFUSCATED SCRIPT</button>
+    <div id="status" class="status-text">Ready</div>
+    
+    <label id="ui-label-output" style="display:block; margin-top:20px;">Hasil (Siap pakai di LuaU):</label>
+    <textarea id="output" readonly></textarea>
+</div>
+
+<script src="tblack.js"></script>
+</body>
+</html>
